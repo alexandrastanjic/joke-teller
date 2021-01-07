@@ -1,4 +1,3 @@
-/* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
 
 html {
   box-sizing: border-box;
@@ -15,8 +14,9 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../assets/frog.gif');
-  background-position: center center;
+  background: url('../assets/robot.gif');
+  background-size: contain;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 
@@ -49,6 +49,7 @@ button:disabled {
 @media screen and (max-width: 1000px) {
   .container {
     background-size: contain;
+    background-position: center top;
   }
 }
 
